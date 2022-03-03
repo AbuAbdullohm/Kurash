@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(240, 240, 240, 0.548);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+img{
+  transition: all 0.3s ease;  
+}
+
+/* Header section styles */
+
+
+
+.header-section .header-logo {
+  width: 100px;
+  height: 150px;
+  margin-left: 70px;
+  border-radius: 0 10px 10px 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-logo img {
+  width: 100%;
+}
+
+.header-section .header-socials {
+  position: absolute;
+  top: 10px;
+  left: 520px;
+}
+
+.header-socials a{
+  width: 35px;
+  height: 35px;
+}
+
+.header-socials img{
+  width: 35px;
+  height: 35px;
+  opacity: 0.7;
+}
+
+.header-section .header-socials img:hover{
+  opacity: 1;
+  box-shadow: 0 5px 20px rgb(24, 24, 24);
+}
+
+.header-socials img {
+  width: 35px;
+  margin-right: 20px;
+  border-radius: 50%;
+  color: red;
+}
+
+.header-rules {
+  display: flex;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
+.header-rules h4 {
+  color: #fff;
+  margin-right: 30px;
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.header-rules h4:hover{
+  opacity: 1;
+  text-shadow: 5px 6px 10px rgba(0,0,0,0.8);
+}
+
+.header-rules p {
+  position: absolute;
+  opacity: 0;
+}
+
+.place-for__finder img{
+  width: 15px;
+  cursor: pointer;
+}
+
+.place-for__finder img:hover{
+  box-shadow: 0 5px 20px rgb(24, 24, 24);;
+}
+
+.header-menu {
+  position: absolute;
+  right: 50px;
+  top: 60px;
+}
+
+.header-menu a {
+  margin-right: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.header-menu a:hover{
+  opacity: 1;
+  text-shadow: 5px 6px 10px rgba(0,0,0,0.8);
+}
+
+
+
+/* SECTION FOOTER */
+.section-footer{
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo,
+.footer-logo a{
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img{
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.footer-logo p,
+.footer-logo a{
+  font-size: 13px;
+  color: black;
+  font-weight: 400;
+}
