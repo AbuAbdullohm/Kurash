@@ -14,15 +14,22 @@ body {
   /* z-index: -1; */
 }
 
-.header-section .header-logo{
+.header-logo .logo-image{
   position: relative;
   height: 115px;
-  box-shadow: 0 1px 5px rgb(24, 24, 24);
-  /* z-index: 50; */
+  border-radius: 0 0 15px 15px;
+  /* box-shadow: 0 1px 5px rgb(24, 24, 24); */
+  /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
 }
+
 
 .header-section .header-logo:hover{
   box-shadow: 0 5px 10px rgb(24, 24, 24);
+}
+
+.white-background{
+  margin-top: -50px;
+  z-index: -1;
 }
 
 .header-socials {
